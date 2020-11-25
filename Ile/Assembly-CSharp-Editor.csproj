@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A5B27CFF-FAB8-0B5E-98E2-B0B8BC7EDB10}</ProjectGuid>
+    <ProjectGuid>{0C1C3E02-9AD0-1151-2C94-501BEAC5FCD6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -58,103 +58,106 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DreamForestTree\Editor\SettingsPrompt.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\BloomModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\FogModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\GrainModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\PostProcessingFactory.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\PostProcessingInspector.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\PostProcessingModelEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\PostProcessingMonitor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Utils\CurveEditor.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Utils\EditorResources.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Utils\FxStyles.cs" />
-     <Compile Include="Assets\DreamForestTree\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
-     <Compile Include="Assets\assets\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
-     <Compile Include="Assets\assets\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
-     <Compile Include="Assets\assets\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
+     <Compile Include="Assets\Cyrine\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
+     <Compile Include="Assets\Cyrine\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
+     <Compile Include="Assets\Cyrine\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
+     <Compile Include="Assets\Cyrine\Conifers [BOTD]\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
+     <Compile Include="Assets\Cyrine\Conifers [BOTD]\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
+     <Compile Include="Assets\Cyrine\Conifers [BOTD]\Conifers [BOTD]\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\Editor\SettingsPrompt.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\FogModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\GrainModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\PostProcessingFactory.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\PostProcessingInspector.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\PostProcessingModelEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\PostProcessingMonitor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Utils\CurveEditor.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Utils\EditorResources.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Utils\FxStyles.cs" />
+     <Compile Include="Assets\Cyrine\DreamForestTree\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Shaders">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Runtime">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Editor">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -342,17 +345,17 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="ICSharpCode.NRefactory">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
- </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/Kenza/OneDrive/Email attachments/Documents/ile 2/ile 2/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/Kenza/OneDrive/Desktop/MadCrossing/Ile/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -711,51 +714,51 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{4C74BA1C-1942-8BC7-63A1-F480E4DFB9F4}</Project>
+      <Project>{F39AF68E-66FC-BE29-D49C-606FB19DE53F}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{393C1D74-3995-38E9-98F9-6F12D1F1C426}</Project>
+      <Project>{F5B562A2-4493-43FC-835E-B8463FD5A907}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{7186BF4C-CE37-7B82-45E7-201BE127B9AA}</Project>
+      <Project>{DC1FD2C4-39DA-40E6-AE54-27D2622AB419}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{6C5EB1F8-6BF6-8ED9-C91B-07D9A61B4FC9}</Project>
+      <Project>{4A972276-2132-D5B8-1DB4-4EABEB5863BE}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{87E4A3A1-3D2A-94C5-0254-E682C212F736}</Project>
+      <Project>{580867B7-CBCC-2095-9C03-B400E27CD708}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{74E87FA8-B152-7B97-B9A5-3099E476D8CF}</Project>
+      <Project>{465C14CE-C884-F4D1-BC34-95D9B775A2B7}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{62CB6AD1-C550-DF29-91F4-61955F75D107}</Project>
+      <Project>{42A8AC55-F0AA-1FB4-4F0C-A956264B55E0}</Project>
       <Name>PhotonWebSocket</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{43B88758-4838-6AF7-64A8-A6AF69EBC70F}</Project>
+      <Project>{36430EE5-A6EC-7722-1024-9EDD42C0181F}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{DB47CE24-E75E-DD1E-9AD2-3E24F1E23F1C}</Project>
+      <Project>{2FF9A8AC-6DA9-789C-6C06-F8F051EAC0CF}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{32BDA64A-C9C2-36E4-CCF4-29C0BEDE671D}</Project>
+      <Project>{F5B851BC-03A0-29F1-4893-BCF4FE45CBE3}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{2908B04E-8AE2-E70D-D7EF-20ECF2001BB3}</Project>
+      <Project>{7E05E676-1CCF-7F74-AAC3-AF48EF5C506C}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{E58471EA-398F-7EBB-5CBD-23D518DA1C08}</Project>
+      <Project>{66DDE533-83E9-0AC7-6AF6-03D77071CD63}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
   </ItemGroup>

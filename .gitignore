@@ -73,6 +73,7 @@ crashlytics-build.properties
 # Binaries
 bin
 obj
+Cyrine
 
 # Rider
 .idea
